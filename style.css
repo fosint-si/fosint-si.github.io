@@ -6,6 +6,7 @@
   --ink:          #0a0d14;
   --paper:        #f5f2ec;
   --accent:       #6290c8;
+  --yellow:      #ff8000;
   --muted:        #6b6860;
   --rule:         rgba(10, 13, 20, 0.12);
 
@@ -203,27 +204,27 @@ nav.scrolled .nav-burger span { background: var(--ink); }
 .hero-eyebrow {
   font-family: 'DM Mono', monospace;
   font-size: 0.75rem; letter-spacing: 0.18em; text-transform: uppercase;
-  color: var(--accent); margin-bottom: 0.8rem;
+  color: var(--yellow); margin-bottom: 0.8rem;
   display: flex; align-items: center; gap: 0.7rem;
 }
 
 .hero-conjunction {
   font-family: 'DM Mono', monospace;
   font-size: 0.75rem; letter-spacing: 0.18em; text-transform: uppercase;
-  color: var(--accent);
+  color: var(--yellow);
   display: flex; align-items: center; gap: 0.7rem;
   margin-bottom: 1rem;
 }
 
 .hero-conjunction a {
-  color: var(--accent);
+  color: var(--yellow);
   text-decoration: underline;
   text-decoration-color: rgba(98, 144, 200, 0.4);
   text-underline-offset: 3px;
   transition: text-decoration-color 0.2s;
 }
 .hero-conjunction a:hover {
-  text-decoration-color: var(--accent);
+  text-decoration-color: var(--yellow);
 }
 
 h1 {
