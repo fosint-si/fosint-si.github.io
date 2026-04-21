@@ -94,6 +94,7 @@ const SITE = {
     { name: "Nathan Clarke",      affil: "University of Plymouth, UK" },
     { name: "Ian McCulloh",       affil: "Johns Hopkins University, USA" },
     { name: "Mazaher Kianpour",   affil: "Norwegian University of Science and Technology, Norway" },
+    { name: "Fatemeh Movafagh",      affil: "Simon Fraser University, Canada" },
   ],
 
   editions: [
