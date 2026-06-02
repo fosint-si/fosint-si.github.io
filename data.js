@@ -44,25 +44,25 @@ const SITE = {
   deadlines: [
     {
       label:   "Full Paper Submission Deadline",
-      isoDate: "2026-06-01T10:59:00Z",
+      isoDate: "2026-06-30T10:59:00Z",
       key:     false,
       dateOnly: false,
     },
     {
       label:   "Notification of Acceptance",
-      isoDate: "2026-07-07T23:59:00Z",
+      isoDate: "2026-07-21T23:59:00Z",
       key:     false,
       dateOnly: true,
     },
     {
       label:   "Author Registration Due",
-      isoDate: "2026-07-11T10:59:00Z",
+      isoDate: "2026-07-27T10:59:00Z",
       key:     false,
       dateOnly: false,
     },
     {
       label:   "Camera-Ready Papers Due",
-      isoDate: "2026-07-21T10:59:00Z",
+      isoDate: "2026-07-31T10:59:00Z",
       key:     false,
       dateOnly: false,
     },
