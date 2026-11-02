@@ -205,27 +205,27 @@ nav.scrolled .nav-burger span { background: var(--ink); }
 .hero-eyebrow {
   font-family: 'DM Mono', monospace;
   font-size: 0.75rem; letter-spacing: 0.18em; text-transform: uppercase;
-  color: var(--yellow); margin-bottom: 0.8rem;
+  color: var(--accent); margin-bottom: 0.8rem;
   display: flex; align-items: center; gap: 0.7rem;
 }
 
 .hero-conjunction {
   font-family: 'DM Mono', monospace;
   font-size: 0.75rem; letter-spacing: 0.18em; text-transform: uppercase;
-  color: var(--yellow);
+  color: var(--accent);
   display: flex; align-items: center; gap: 0.7rem;
   margin-bottom: 1rem;
 }
 
 .hero-conjunction a {
-  color: var(--yellow);
+  color: var(--accent);
   text-decoration: underline;
   text-decoration-color: rgba(98, 144, 200, 0.4);
   text-underline-offset: 3px;
   transition: text-decoration-color 0.2s;
 }
 .hero-conjunction a:hover {
-  text-decoration-color: var(--yellow);
+  text-decoration-color: var(--accent);
 }
 
 h1 {
@@ -234,7 +234,7 @@ h1 {
   line-height: 1.06; letter-spacing: 0em;
   color: var(--white); margin-bottom: 1rem;
 }
-h1 em { color: var(--accent); font-style: normal; }
+h1 em { color: var(--yellow); font-style: normal; }
 
 .hero-pills { display: flex; flex-wrap: wrap; gap: 0.7rem; }
 .hero-pill {

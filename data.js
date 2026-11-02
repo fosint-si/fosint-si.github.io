@@ -76,12 +76,12 @@ const SITE = {
   ],
 
   chairs: [
-    { role: "Steering Chair",          name: "Reda Alhajj",           affil: "University of Calgary, Canada" },
+    // { role: "Steering Chair",          name: "Reda Alhajj",           affil: "University of Calgary, Canada" },
     { role: "General Chair",           name: "Lisa Kaati",             affil: "Stockholm University, Sweden" },
     { role: "Program co-Chair",           name: "Uwe Glässer",            affil: "Simon Fraser University, Canada" },
     { role: "Program co-Chair",           name: "Mohammad Tayebi",        affil: "Simon Fraser University, Canada" },
     { role: "Program Coordinator",     name: "Erfan Shafagh",            affil: "Simon Fraser University, Canada" },
-    { role: "Local Arrangement Chair", name: "El Moukhtar Zemmouri",   affil: "ENSAM-Meknès, Morocco" },
+    // { role: "Local Arrangement Chair", name: "El Moukhtar Zemmouri",   affil: "ENSAM-Meknès, Morocco" },
   ],
 
   programCommittee: [
@@ -95,7 +95,7 @@ const SITE = {
     { name: "Nathan Clarke",      affil: "University of Plymouth, UK" },
     { name: "Ian McCulloh",       affil: "Johns Hopkins University, USA" },
     { name: "Mazaher Kianpour",   affil: "Norwegian University of Science and Technology, Norway" },
-    { name: "Fatemeh Movafagh",      affil: "Simon Fraser University, Canada" },
+    // { name: "Fatemeh Movafagh",      affil: "Simon Fraser University, Canada" },
   ],
 
   editions: [
