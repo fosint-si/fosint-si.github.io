@@ -598,6 +598,15 @@ h2 {
   transition: transform 0.3s ease; z-index: 3;
 }
 .edition-cell:hover::after { transform: scaleX(1); }
+a.edition-cell { display: block; color: inherit; text-decoration: none; cursor: pointer; }
+a.edition-cell:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.ed-link {
+  display: inline-block; margin-top: 0.5rem;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.68rem; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--white);
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+}
 
 
 /* ── Footer ── */

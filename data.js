@@ -99,7 +99,7 @@ const SITE = {
   ],
 
   editions: [
-    { year: "2026", location: "Rabat, Morocco",          venue: "",                                         dates: "August 24–27",    image: "Rabat.webp" },
+    { year: "2026", location: "Rabat, Morocco",          venue: "",                                         dates: "August 24–27",    image: "Rabat.webp", url: "2026/" },
     { year: "2025", location: "Niagara Falls, Canada",  venue: "Embassy Suites Niagara Falls",             dates: "August 24–27",    image: "niagara.jpg" },
     { year: "2024", location: "Cosenza, Italy",          venue: "University of Calabria",                   dates: "September 2–5",   image: "italy.jpg" },
     { year: "2023", location: "Kusadasi, Turkey",        venue: "Pine Bay Holiday Resort",                  dates: "November 6–9",    image: "kusadasi.jpg" },

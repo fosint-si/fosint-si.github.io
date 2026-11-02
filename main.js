@@ -129,8 +129,11 @@ function buildEditions() {
   qs('.editions-grid').innerHTML = SITE.editions.map(e => {
     const bgStyle = e.image ? `background-image: url('images/${e.image}');` : '';
     const venueStr = e.venue ? `<br>${e.venue}` : '';
+    const tag = e.url ? 'a' : 'div';
+    const hrefAttr = e.url ? ` href="${e.url}"` : '';
+    const linkStr = e.url ? `<span class="ed-link">Visit site &rarr;</span>` : '';
     return `
-      <div class="edition-cell">
+      <${tag} class="edition-cell"${hrefAttr}>
         <div class="edition-cell-bg" style="${bgStyle}"></div>
         <div class="edition-cell-overlay"></div>
         <div class="edition-cell-content">
@@ -138,8 +141,9 @@ function buildEditions() {
           <div class="ed-location">
             <strong>${e.location}</strong>${venueStr}<br>${e.dates}
           </div>
+          ${linkStr}
         </div>
-      </div>
+      </${tag}>
     `;
   }).join('');
 }
