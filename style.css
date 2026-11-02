@@ -189,8 +189,9 @@ nav.scrolled .nav-burger span { background: var(--ink); }
   background: linear-gradient(
     to bottom,
     var(--ink-94)  0%,
-    var(--ink-60) 50%,
-    var(--ink-20) 100%
+    var(--ink-60) 24%,
+    var(--ink-15) 42%,
+    var(--ink-15) 100%
   );
 }
 
@@ -533,6 +534,13 @@ h2 {
   transition: color 0.15s;
   text-align: center;
 }
+/* Odd count: center the lone last name under the two columns */
+.pc-list-item:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: 50%;
+  padding-inline: 0;
+}
 .pc-list-name  { font-size: 0.9rem; font-weight: 600; color: var(--ink); margin-bottom: 0.1rem; }
 .pc-list-affil { font-size: 0.7rem; color: var(--muted); line-height: 1.4; }
 
@@ -722,6 +730,7 @@ footer a:hover { color: var(--white); }
     gap: 0.75rem;
     flex-wrap: wrap;
   }
+  .pc-list-item:last-child:nth-child(odd) { width: 100%; }
   .pc-list-name  { flex-shrink: 0; }
   .pc-list-affil { font-size: 0.72rem; }
 

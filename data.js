@@ -1,23 +1,24 @@
 /**
- * FOSINT-SI 2026 — data.js
+ * FOSINT-SI 2027 — data.js
  */
 
 const SITE = {
 
   conference: {
-    shortName:   "FOSINT-SI 2026",
+    shortName:   "FOSINT-SI 2027",
     fullName:    "Foundations of Open Source Intelligence and Security Informatics",
-    edition:     "2026",
-    location:    "Rabat, Morocco",
-    dates:       "24–27 August 2026",
+    edition:     "2027",
+    location:    "Athens, Greece",
+    dates:       "23–26 August 2027",
     format:      "In-Person",
     conjunction: {
-      name: "ASONAM 2026",
-      url:  "http://asonam.cpsc.ucalgary.ca/2026/",
+      name: "ASONAM 2027",
+      url:  "http://asonam.cpsc.ucalgary.ca/2027/",
     },
     contact:     "diaylosteiman@gmail.com",
-    submitUrl:   "https://cmt3.research.microsoft.com/ASONAM2026",
-    heroImage:   "images/Rabat.webp",
+    submitUrl:   "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FASONAM2027",
+    heroImage:   "images/athens.webp",
+    heroCredit:  { text: "Photo: Martin Cígler, CC BY-SA 3.0", url: "https://commons.wikimedia.org/wiki/File:Acropolis_z_pahorku_Filopappou_-_panoramio.jpg" },
     heroEyebrow: "International Symposium",
     heroTitle:   "<em>F</em>oundations of <em>O</em>pen <em>S</em>ource <em>I</em>ntelligence &amp; <em>S</em>ecurity <em>I</em>nformatics",
   },
@@ -26,17 +27,17 @@ const SITE = {
     "Open source intelligence for cyber situational awareness related to concepts, models and methods for cyber threat intelligence in tactical, operational and strategic levels are central to the scope of this event. Cyberattacks are becoming increasingly complex and routine threats emerging from an evolving threat landscape. Security breaches frequently compromise sensitive information, exposing personal identities, intellectual property or financial assets. Things will get a lot worse when advanced attacks target public infrastructure on which we all depend. Besides temporal disruption of critical services, sophisticated attacks can cause physical damage to vital systems like the electric grid or intelligent transportation systems.",
     "Criminal networks and terrorist groups often operate globally, hiding their illicit activities by taking advantage of information and communications technology. Digital communication enables global communities that are hard to track. Open source intelligence can be a powerful tool for combating crime by linking global and local crime patterns to help understand how criminal activities are connected across crime spaces and emerging trends such as the inevitable shift of conventional organized crime to the cyber arena.",
     "Cyber threat information can be drawn from countless sources from the dark and surface web such as hacker forums, darknet markets, internet relay chats, and social media. This situation calls for radical advances in using cutting-edge data mining, machine learning and predictive analytics combined with social network analysis and natural language processing to detect, disrupt and neutralize cyber and physical threats. We invite submissions of original research papers describing solutions and systems for all aspects of open source intelligence and security informatics. Topics of interest include but are not limited to cyber threat intelligence, cybercrime analysis, web intelligence and security, big crime data mining algorithms and open source situational awareness.",
-    "Papers will be thoroughly reviewed by experts in the field and will be selected based on their originality, timeliness, significance, relevance, and clarity of presentation. Further, authors should certify that their submissions contain substantially new and previously unpublished research. Accepted and presented papers will be included in the FOSINT-SI 2026 Conference Proceedings and forwarded for inclusion in Springer LNCS. The conference proceedings will be submitted for EI indexing as part of Springer LNCS. The proceedings will be also covered by several other indexes, including DBLP, SCOPUS, etc. A selection of high-quality research papers from FOSINT-SI 2026 will be invited to submit an extended version for an edited book in the Lecture Notes in Social Networks (LNSN) series published by Springer.",
+    "Papers will be thoroughly reviewed by experts in the field and will be selected based on their originality, timeliness, significance, relevance, and clarity of presentation. Further, authors should certify that their submissions contain substantially new and previously unpublished research. Accepted and presented papers will be included in the FOSINT-SI 2027 Conference Proceedings and forwarded for inclusion in Springer LNCS. The conference proceedings will be submitted for EI indexing as part of Springer LNCS. The proceedings will be also covered by several other indexes, including DBLP, SCOPUS, etc. A selection of high-quality research papers from FOSINT-SI 2027 will be invited to submit an extended version for an edited book in the Lecture Notes in Social Networks (LNSN) series published by Springer.",
   ],
 
   submission: {
     springerUrl: "https://www.springernature.com/gp/authors/publish-a-book/step-by-step-conference-proceedings?srsltid=AfmBOorN2naasHxUOm-O4QpL2rIrpAlWFWAQqk0kTrVhRj3VeDbhouTI",
-    asonamUrl:   "http://asonam.cpsc.ucalgary.ca/2026/",
+    asonamUrl:   "http://asonam.cpsc.ucalgary.ca/2027/",
     paragraphs: [
       "We welcome all submissions reporting original and unpublished research written in English and pertaining to the topics mentioned in the Call For Paper page.",
       "Three categories of submissions will be accepted: full papers up to 15 pages, short communications up to 8 pages, and abstracts up to 4 pages, all in <a href=\"https://www.springernature.com/gp/authors/publish-a-book/step-by-step-conference-proceedings?srsltid=AfmBOorN2naasHxUOm-O4QpL2rIrpAlWFWAQqk0kTrVhRj3VeDbhouTI\" target=\"_blank\" class=\"format\">Springer conference format.</a>",
       "Submissions should include the title, authors, affiliation, e-mail address, tel/fax numbers, abstract, and postal address on the first page. Papers should be submitted online using the symposium Online Submission System.",
-      "Paper submission implies one of the authors must register and attend the symposium to present the paper. FOSINT-SI 2026 participants will also enjoy free access to the full program of <a href=\"http://asonam.cpsc.ucalgary.ca/2026/\" target=\"_blank\" class=\"format\">ASONAM 2026</a> and all the accompanying symposia and workshops.",
+      "Paper submission implies one of the authors must register and attend the symposium to present the paper. FOSINT-SI 2027 participants will also enjoy free access to the full program of <a href=\"http://asonam.cpsc.ucalgary.ca/2027/\" target=\"_blank\" class=\"format\">ASONAM 2027</a> and all the accompanying symposia and workshops.",
     ],
     submitLabel: "Submit via CMT",
   },
@@ -44,31 +45,31 @@ const SITE = {
   deadlines: [
     {
       label:   "Full Paper Submission Deadline",
-      isoDate: "2026-06-30T10:59:00Z",
+      isoDate: "2027-06-01T10:59:00Z",
       key:     false,
       dateOnly: false,
     },
     {
       label:   "Notification of Acceptance",
-      isoDate: "2026-07-21T23:59:00Z",
+      isoDate: "2027-07-07T23:59:00Z",
       key:     false,
       dateOnly: true,
     },
     {
       label:   "Author Registration Due",
-      isoDate: "2026-07-27T10:59:00Z",
+      isoDate: "2027-07-11T10:59:00Z",
       key:     false,
       dateOnly: false,
     },
     {
       label:   "Camera-Ready Papers Due",
-      isoDate: "2026-07-31T10:59:00Z",
+      isoDate: "2027-07-21T10:59:00Z",
       key:     false,
       dateOnly: false,
     },
     {
-      label:   "3-Days Conference — Rabat, Morocco",
-      isoDate: "2026-08-24T08:00:00Z",
+      label:   "3-Days Conference — Athens, Greece",
+      isoDate: "2027-08-23T08:00:00Z",
       key:     false,
       dateOnly: true,
     },
@@ -98,6 +99,7 @@ const SITE = {
   ],
 
   editions: [
+    { year: "2026", location: "Rabat, Morocco",          venue: "",                                         dates: "August 24–27",    image: "Rabat.webp" },
     { year: "2025", location: "Niagara Falls, Canada",  venue: "Embassy Suites Niagara Falls",             dates: "August 24–27",    image: "niagara.jpg" },
     { year: "2024", location: "Cosenza, Italy",          venue: "University of Calabria",                   dates: "September 2–5",   image: "italy.jpg" },
     { year: "2023", location: "Kusadasi, Turkey",        venue: "Pine Bay Holiday Resort",                  dates: "November 6–9",    image: "kusadasi.jpg" },

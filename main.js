@@ -150,7 +150,7 @@ function buildFooter() {
   const sep = `<span class="footer-sep">·</span>`;
   qs('footer').innerHTML = `
     <span class="footer-line">
-      <strong style="color:var(--white-80)">${c.shortName}</strong>${sep}${c.fullName}${sep}${c.location}${sep}${c.dates}${sep}In conjunction with <a href="${c.conjunction.url}" target="_blank">${c.conjunction.name}</a>
+      <strong style="color:var(--white-80)">${c.shortName}</strong>${sep}${c.fullName}${sep}${c.location}${sep}${c.dates}${sep}In conjunction with <a href="${c.conjunction.url}" target="_blank">${c.conjunction.name}</a>${sep}<a href="${c.heroCredit.url}" target="_blank">${c.heroCredit.text}</a>
     </span>
   `;
 }
